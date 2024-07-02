@@ -1,4 +1,5 @@
 import multiplicacion from "./operaciones/multiplicacion.js";
 
-export const module = { multiplicacion };
+const module = { multiplicacion };
+export { multiplicacion };
 export default module;
